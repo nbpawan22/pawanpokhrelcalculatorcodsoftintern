@@ -32,6 +32,7 @@ background-color: black;
 transition: 0.2s;
 }
 #display{
+    width: 220px;
     text-align: right;
     background-color: aqua;
     height: 30px;
