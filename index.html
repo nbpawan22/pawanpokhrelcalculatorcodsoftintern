@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link  rel="icon" type="image/x-icon" href="plus.png">
+<body>
+    <div class="container">
+        <div class="displayscreen">
+            <input type="text" disabled placeholder="©pawanpokhrel22" id="display">
+        </div>
+        <br>
+        <div class="buttons">
+            <button id="button" style="background-color: orangered;" onclick="clearvalue()">C</button>
+            <button id="button" onclick="addvalue('*0.01')">%</button>
+            <button id="button" onclick="display.value = display.value.toString().slice(0,-1)">⌫</button>
+            <button id="button" onclick="addvalue('/')">/</button>
+            <button id="button" onclick="addvalue(7)">7</button>
+            <button id="button" onclick="addvalue(8)">8</button>
+            <button id="button" onclick="addvalue(9)">9</button>
+            <button id="button" onclick="addvalue('*')">x</button>
+            <button id="button" onclick="addvalue(4)">4</button>
+            <button id="button" onclick="addvalue(5)">5</button>
+            <button id="button" onclick="addvalue(6)">6</button>
+            <button id="button" onclick="addvalue('-')">-</button>
+            <button id="button" onclick="addvalue(1)">1</button>
+            <button id="button" onclick="addvalue(2)">2</button>
+            <button id="button" onclick="addvalue(3)">3</button>
+            <button id="button" onclick="addvalue('+')">+</button>
+            <button id="button" onclick="addvalue('00')">00</button>
+            <button id="button" onclick="addvalue(0)">0</button>
+            <button id="button" onclick="addvalue('.')"><b>.</b></button>
+            <button id="button" onclick="calculate()">=</button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

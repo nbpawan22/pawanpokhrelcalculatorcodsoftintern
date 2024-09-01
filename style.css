@@ -1,0 +1,41 @@
+body{
+    background-image: url(bg.jfif);
+    background-repeat:no-repeat;
+background-size: cover;
+background-attachment:fixed;
+}
+.container{
+    border: 3px solid rgb(105, 105, 105);
+    border-radius: 15px;
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+background-color: black;
+}
+.buttons{
+    display: grid;
+    grid-template-columns:auto auto auto auto ;
+    gap: 10px;
+}
+#button{
+    height: 50px;
+    border: none;
+    width: 50px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+}
+#button:hover{
+    background-color: rgb(94, 94, 94);
+    color: white;
+transition: 0.2s;
+}
+#display{
+    text-align: right;
+    background-color: aqua;
+    height: 30px;
+    border: none;
+    border-radius: 7px;
+    padding-left: 10px;
+}
